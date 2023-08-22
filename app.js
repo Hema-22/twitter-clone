@@ -6,7 +6,7 @@ app.use(express.json());
 const { open } = require("sqlite");
 const sqlite3 = require("sqlite3");
 const path = require("path")
-const dbPath = path.join(__dirname, "twitterClone.db");
+const dbPath = path.join(__dirname, "/home/workspace/nodejs/coding-assignments/coding-assignment-2/twitterClone.db");
 let dp = null;
 const initializeDBAndServer = async () => {
     try {
